@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+Real Madrid Quiz
+</title>
+<link rel="stylesheet" type="text/css" href="rma_quiz.css">
+<script type="text/javascript" src="rma_quiz.js">
+</script>
+</head>
+<body>
+<div class="div1">
+<p><img class="top" src="images/Logo.png" alt="logo">
+Real<br>
+Madrid<br>
+Football<br>
+Club</h2>
+</p>
+</div>
+<div class="menu">
+<ul>
+<li><a href="rma.html"target="_self">HOME</a></li>|
+<li><a href="Schedule.html"target="_self">Match Schedule</a></li>|
+<li><a href="Player_info.html"target="_self">Players Info</a></li>|
+<li><a href="rma_history.html"target="_self">History</a></li>|
+<li><a href="rma_trophies.html"target="_self">Trophies</a></li>|
+<li><a href="rma_quiz.html"target="_self">Quiz</a></li>|
+<li><a href="rma_gallery.html"target="_self">Gallery</a></li>|
+<li><a href="rma_fact.html"target="_self">Facts and figures</a></li>
+</ul>
+</div>
+<center><input type="button" id="b1" value="Start Quiz" onclick="start()" ></center>
+<font color="Green"><u>RESULTS</u>:
+<textarea id="cons" rows="15" cols="100" disabled >
+Score gets displayed here...
+</textarea>
+<center><input type="button" id="b2" value="Check Score" onclick="get_score()">
+<input type="button" id="b3" value="Try Again" onclick="try_again()" disabled> </center>
+<center> <input type="button" id="b4" value="Show answers" onclick="get_answer()" disabled> </center>
+
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>
